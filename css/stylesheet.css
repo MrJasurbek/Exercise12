@@ -185,7 +185,7 @@ ul {
     padding-left: 100px;
 }
 
-.one{
+.one {
     background-image: url("../img/hero-bg-desktop.svg");
     background-size: cover;
     background-position: right;
@@ -195,9 +195,7 @@ ul {
     z-index: 1;
 }
 
-.img-container{
-
-}
+.img-container {}
 
 .main__items h1 {
     font-size: 56px;
@@ -269,3 +267,43 @@ ul {
     line-height: 1.35;
 }
 
+
+@media only screen and (max-width: 1200px) {
+
+.main{
+    visibility: hidden;
+
+}
+
+.footer{
+    visibility: hidden;
+}
+   
+    
+}
+
+
+@media only screen and (min-width:10px){
+    .btn_hidden{
+        visibility: hidden;
+        
+    }
+
+}
+@media only screen and (max-width: 640px){
+    .btn_hidden{
+        visibility: visible;
+        
+    }
+
+    .navbar{
+        visibility: hidden;
+        width: 0px;
+    }
+    .button{
+        visibility: hidden;
+        width: 50px;
+      
+    }
+ 
+} 
