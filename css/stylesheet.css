@@ -82,7 +82,7 @@ ul {
 .header {
     display: flex;
     flex-direction: row;
-    z-index: 1;
+    z-index: 3;
     background: #fff;
 }
 
@@ -185,14 +185,19 @@ ul {
     padding-left: 100px;
 }
 
-.img-container {
+.one{
     background-image: url("../img/hero-bg-desktop.svg");
     background-size: cover;
-    background-position: bottom;
+    background-position: right;
+    background-size: 50%;
     background-repeat: no-repeat;
     padding-top: 20px;
+    z-index: 1;
 }
 
+.img-container{
+
+}
 
 .main__items h1 {
     font-size: 56px;
@@ -263,3 +268,4 @@ ul {
     color: #9597A5;
     line-height: 1.35;
 }
+
